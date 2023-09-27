@@ -5,6 +5,10 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Leonify App',
   description: 'Leonify App resources',
+  other: {
+    'theme-color': '#0d1117',
+    'color-scheme': 'dark only',
+  }
 }
 
 export default function RootLayout({
